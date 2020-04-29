@@ -1,0 +1,16 @@
+num1= input("Enter your first number= :)
+for x in num1
+if x==".":
+break
+  else:
+   num1=float(num1)
+num2= input("Enter your Second Number= :)
+for x in num2
+if x==".":
+break
+else:
+    num2=float(num2)
+operator= ("which operator you want to use = ")
+if operator = "+":
+result= num1 + num2
+print(result)
